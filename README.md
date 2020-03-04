@@ -14,4 +14,4 @@ Please make sure to update tests as appropriate.
 ## Technology
 Backend: Java (Spring boot).
 
-Frontend: Html(bootstrap), CSS, SASS, JS, ReactJS, jQery,Thymeleaf,Underscore,
+Frontend: HTML, Bootstrap4, CSS, SASS, JS, ReactJS, Underscore.
