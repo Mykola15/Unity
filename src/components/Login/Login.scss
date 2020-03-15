@@ -1,9 +1,13 @@
 .signin-form {
-    padding: 5% 5% 5% 5%;
+    text-align:center;
+    padding: 15px 15px 15px 15px
 }
 
 .signin-image {
-    padding: 5% 5% 5% 5%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 15px 15px 15px;
 }
 
 .form-title {
@@ -22,7 +26,7 @@ figure {
     border-bottom: none;
     width: auto;
     padding: 10px 40px;
-    margin-top: 15px;
+    margin-top: 40px;
     border-radius: 5px;
     cursor: pointer;
     &:hover {
@@ -80,16 +84,19 @@ body {
 
 .form-group {
     position: relative;
-    margin-bottom: 25px;
     overflow: hidden;
     &:last-child {
         margin-bottom: 0px;
     }
 }
 
+.remmeber {
+    text-align:left;
+    padding-left:left;
+}
+
 input {
-    width: 100%;
-    display: block;
+    width: 80%;
     border: none;
     border-bottom: 1px solid #999;
     padding: 6px 30px;
@@ -102,32 +109,39 @@ input {
 }
 
 .agree-term {
-    display: inline-block;
+    text-align:left;
     width: auto;
+    margin-left: 10%;
+}
+
+.name, .pass{
+    left: 12%;
 }
 
 label {
     position: absolute;
-    left: 0;
+    
     top: 50%;
     color: #222;
     transform: translateY(-50%);
 }
 .label-agree-term {
     position: relative;
-    top: 14px;
+    top: 10px;
 }
 
-.social-login {
-    margin-top: 50px;
+.login-label {
+    display: inline-block;
+    padding-top: 15px;
 }
+
 .social-label {
     display: inline-block;
-    margin-right: 15px;
 }
 .socials {
+    justify-content:center;
+    align-items:center;
     list-style-type: none;
-    padding-inline-start: 40px;
     margin: 0;
     padding: 0;
     display:flex;
