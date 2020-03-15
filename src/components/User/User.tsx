@@ -1,6 +1,7 @@
 import React from 'react';
 import './User.scss';
 import Tree from './Tree/Tree';
+import UserInfo from './UserInfo/UserInfo';
 
 function User() {
     return (
@@ -11,9 +12,7 @@ function User() {
                         <Tree/>
                     </div>
                     <div className="col-md-4">
-                        <div className="user-info-block">
-
-                        </div>
+                        <UserInfo/>
                     </div>
                 </div>
             </div>
