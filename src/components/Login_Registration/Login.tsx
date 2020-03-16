@@ -1,6 +1,6 @@
 import React from 'react';
 import photo from './signin-image.jpg';
-import './Login.scss';
+import './LoginRegister.scss';
 
 function Login() {
     return (
@@ -12,11 +12,11 @@ function Login() {
                 <form method="POST" className="register-form" id="login-form">
                     <div className="form-group">
                         <label><i className="zmdi zmdi-account material-icons-name"></i></label>
-                        <input type="text" id="your_name" placeholder="Your Name"/>
+                        <input type="text" className="form" id="your_name" placeholder="Your Name"/>
                     </div>
                     <div className="form-group">
                         <label><i className="zmdi zmdi-lock"></i></label>
-                        <input type="password" id="your_pass" placeholder="Password"/>
+                        <input type="password" className="form" id="your_pass" placeholder="Password"/>
                     </div>
                     <div className="form-group  remmeber">
                         <input type="checkbox" id="remember-me" className="agree-term" />
@@ -37,7 +37,7 @@ function Login() {
                 <span className="login-label">Not a member?</span><a href="/registration" className="signin-image-link">Sign Up</a>
             </div>
             <div className="signin-image col-md-6 col-xs-12">
-                <figure><img src={photo} className="image" alt="sing in image"/></figure>
+                <figure><img src={photo} className="image" alt="sing in"/></figure>
             </div>
         </div>
     </div>

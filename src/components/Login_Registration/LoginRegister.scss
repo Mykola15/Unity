@@ -1,8 +1,10 @@
 .signin-form {
     text-align:center;
-    padding: 5% 10% 5% 10%;
+    margin-top:15px;
+    margin-bottom:15px;
+    padding-left:5%;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
 }
 
 .signin-image {
@@ -49,11 +51,11 @@ figure {
 }
 
 .main-sign-wrapper {
-display:flex;
-justify-content: center;
-align-items: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     width:100%;
-    min-height:100hv;
+    min-height: 100vh;
     font-size: 18px;
     color: #222;
     background: #f8f8f8;
@@ -98,8 +100,8 @@ align-items: center;
     padding-left:left;
 }
 
-input {
-    width: 100%;
+.form {
+    width: 90%;
     border: none;
     border-bottom: 1px solid #999;
     padding: 6px 30px;
@@ -113,20 +115,22 @@ input {
 
 .agree-term {
     text-align:left;
-    width: auto;
+    margin-left:5%;
 }
-
-
 
 label {
     position: absolute;
     top: 50%;
     color: #222;
+    font-family: Poppins;
     transform: translateY(-50%);
 }
+
 .label-agree-term {
     position: relative;
-    top: 14px;
+    font-size: 14px;
+    top: 8px;
+    left: 5px;
 }
 
 .login-label {
@@ -135,6 +139,7 @@ label {
 }
 
 .social-label {
+    padding-top: 5px;
     display: inline-block;
 }
 .socials {

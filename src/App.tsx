@@ -1,8 +1,8 @@
 import React from 'react';
 import {Route} from 'react-router-dom';
 import User from './components/User/User';
-import Login from './components/Login/Login';
-import Registration from './components/Registration/Registration';
+import Login from './components/Login_Registration/Login';
+import Registration from './components/Login_Registration/Registration';
 
 import './App.scss';
 
