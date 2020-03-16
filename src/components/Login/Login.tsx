@@ -4,6 +4,7 @@ import './Login.scss';
 
 function Login() {
     return (
+    <div className="main-sign-wrapper">
      <div className="container">
         <div className="signin-content row">
             <div className="signin-form col-md-6 col-xs-12">
@@ -28,17 +29,18 @@ function Login() {
                 <div className="social-login">
                     <span className="social-label">Or login with</span>
                     <ul className="socials">
-                        <li><a href="#"><i className="display-flex-center zmdi zmdi-facebook"></i></a></li>
-                        <li><a href="#"><i className="display-flex-center zmdi zmdi-twitter"></i></a></li>
-                        <li><a href="#"><i className="display-flex-center zmdi zmdi-google"></i></a></li>
+                        <li><a href="https://uk-ua.facebook.com"><i className="display-flex-center zmdi zmdi-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/?lang=uk"><i className="display-flex-center zmdi zmdi-twitter"></i></a></li>
+                        <li><a href="https://www.google.com.ua/?hl=ru"><i className="display-flex-center zmdi zmdi-google"></i></a></li>
                     </ul>
                 </div>
-                <span className="login-label">Not a member?</span><a href="#" className="signin-image-link">Sign Up</a>
+                <span className="login-label">Not a member?</span><a href="/registration" className="signin-image-link">Sign Up</a>
             </div>
             <div className="signin-image col-md-6 col-xs-12">
-                <figure><img src={photo} alt="sing in image"/></figure>
+                <figure><img src={photo} className="image" alt="sing in image"/></figure>
             </div>
         </div>
+    </div>
     </div>);
 }
 
