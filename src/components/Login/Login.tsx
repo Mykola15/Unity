@@ -10,11 +10,11 @@ function Login() {
                 <h2 className="form-title">Login</h2>
                 <form method="POST" className="register-form" id="login-form">
                     <div className="form-group">
-                        <label className="name"><i className="zmdi zmdi-account material-icons-name"></i></label>
+                        <label><i className="zmdi zmdi-account material-icons-name"></i></label>
                         <input type="text" id="your_name" placeholder="Your Name"/>
                     </div>
                     <div className="form-group">
-                        <label className="pass"><i className="zmdi zmdi-lock"></i></label>
+                        <label><i className="zmdi zmdi-lock"></i></label>
                         <input type="password" id="your_pass" placeholder="Password"/>
                     </div>
                     <div className="form-group  remmeber">

@@ -1,13 +1,15 @@
 .signin-form {
     text-align:center;
-    padding: 15px 15px 15px 15px
+    padding: 5% 10% 5% 10%;
+    align-items: center;
+    justify-content:center;
 }
 
 .signin-image {
     display: flex;
     align-items: center;
     justify-content:center;
-    padding: 15px 15px 15px;
+    padding: 15px 15px;
 }
 
 .form-title {
@@ -96,7 +98,7 @@ body {
 }
 
 input {
-    width: 80%;
+    width: 100%;
     border: none;
     border-bottom: 1px solid #999;
     padding: 6px 30px;
@@ -111,23 +113,19 @@ input {
 .agree-term {
     text-align:left;
     width: auto;
-    margin-left: 10%;
 }
 
-.name, .pass{
-    left: 12%;
-}
+
 
 label {
     position: absolute;
-    
     top: 50%;
     color: #222;
     transform: translateY(-50%);
 }
 .label-agree-term {
     position: relative;
-    top: 10px;
+    top: 14px;
 }
 
 .login-label {
