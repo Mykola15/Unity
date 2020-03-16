@@ -1,12 +1,9 @@
 .achievement-block{
   border: 2px solid #cda062;
   border-radius: 10px;
-  width: 25%;
   background: #524028;
 }
-.achievement-img{
-  display: inline-block;
-}
+
 .achievement-img img{
   padding: 5px;
   width: 50px;
@@ -15,6 +12,4 @@
 .achievement-description{
   padding-left: 5px;
   color: #cda062;
-  display: inline-block;
-
 }
