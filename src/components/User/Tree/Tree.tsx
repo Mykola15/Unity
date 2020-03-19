@@ -6,29 +6,35 @@ import Achievement from './Achievement/Achievement';
 function Tree() {
 
     return (
-        <div className="tree-block row">
+        <div className="tree-block">
 
             <div className="tree-img">
                 <img className="tree-img-colorful" src={tree} alt="Tree" style={{height: '30%'}}/>
                 <img className="tree-img-grayscale" src={tree} alt="Tree"/>
             </div>
-            <div className="container-fluid" style={{height: "100%",position:"absolute"}}  >
-            <div className="achievements" style={{ height: "100%"}}>
-                    <div className="row achievement-row">
-                        <div className=" achievement col-3">
-                            <Achievement/>
-                            <Achievement/>
-                        </div>
-                        <div className="col-6"></div>
-                        <div className="achievement col-3" style={{marginBottom:"5%"}}>
-                            <Achievement/>
-                        </div>
+            <div className="container-fluid achievements">
+                <div className="row achievement-row">
+                    <div className="achievement achievement-left col-3">
+                        <Achievement/>
+                        <Achievement/>
+                        <Achievement/>
+                        <Achievement/>
+                        <Achievement/>
+                    </div>
+                    <div className="col-6"></div>
+                    <div className="achievement achievement-right col-3">
+                        <Achievement/>
+                        <Achievement/>
+                        <Achievement/>
+                        <Achievement/>
+                        <Achievement/>
                     </div>
                 </div>
             </div>
-
         </div>
+
     );
 }
+
 
 export default Tree;
