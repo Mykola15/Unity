@@ -1,0 +1,29 @@
+@import './public/assets/_vars.scss';
+
+.main-navbar {
+  color: white;
+  background: #00BBFF;
+  box-shadow: 0 0 7px 2px rgba(0,0,0,.3);
+  padding: 30px;
+  margin-bottom: 30px;
+
+  .navbar-brand {
+    font-size: 36px;
+    color: white;
+  }
+
+  .nav-item {
+    font-size: 30px;
+    margin: 0 10px;
+
+    .nav-link {
+      i {
+        color: white;
+      }
+
+      &:hover i {
+        color: darken(white,10%);
+      }
+    }
+  }
+}
