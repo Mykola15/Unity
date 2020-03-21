@@ -20,29 +20,29 @@ function Task() {
                             <div className="other-task-images">
                                 <div className="row">
                                     <div className="col">
-										<div className="task-image-wrapper">
-											<img src={task} alt="Avatar"/>
-										</div>
+                                        <div className="task-image-wrapper">
+                                            <img src={task} alt="Avatar"/>
+                                        </div>
                                     </div>
                                     <div className="col">
-										<div className="task-image-wrapper">
-											<img src={task} alt="Avatar"/>
-										</div>
+                                        <div className="task-image-wrapper">
+                                            <img src={task} alt="Avatar"/>
+                                        </div>
                                     </div>
                                     <div className="col">
-										<div className="task-image-wrapper">
-											<img src={task} alt="Avatar"/>
-										</div>
+                                        <div className="task-image-wrapper">
+                                            <img src={task} alt="Avatar"/>
+                                        </div>
                                     </div>
                                     <div className="col">
-										<div className="task-image-wrapper">
-											<img src={task} alt="Avatar"/>
-										</div>
+                                        <div className="task-image-wrapper">
+                                            <img src={task} alt="Avatar"/>
+                                        </div>
                                     </div>
                                     <div className="col">
-										<div className="task-image-wrapper">
-											<img src={task} alt="Avatar"/>
-										</div>
+                                        <div className="task-image-wrapper">
+                                            <img src={task} alt="Avatar"/>
+                                        </div>
                                     </div>
 
                                 </div>
@@ -70,7 +70,7 @@ function Task() {
                                 consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum
                                 dolore
                                 eu fugiat nulla pariatur</p>
-							<button className="btn participate-btn">Participate</button>
+                            <button className="btn participate-btn">Participate</button>
                         </div>
 
                     </div>

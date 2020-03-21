@@ -1,70 +1,70 @@
 @import './public/assets/_vars.scss';
 
 .task-page {
-    .task-name {
-        text-align: center;
+  .task-name {
+    text-align: center;
+  }
+
+  .main-task-photo {
+    text-align: center;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .task-image-wrapper {
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    img {
+      width: 100%;
     }
 
-    .main-task-photo {
-        text-align: center;
+    &:hover {
+      padding: 5px;
+    }
+  }
 
-        img {
-            width: 100%;
-        }
+  .task-additional-info {
+    text-align: center;
+
+    .task-description {
+      text-align: justify;
+      font-size: 22px;
     }
 
-    .task-image-wrapper {
-        padding: 10px;
-        cursor: pointer;
-        transition: 0.3s;
-
-        img {
-            width: 100%;
-        }
-
-        &:hover {
-            padding: 5px;
-        }
+    a {
+      color: $default-text-color;
     }
 
-    .task-additional-info {
-        text-align:center;
-
-        .task-description {
-            text-align: justify;
-            font-size: 22px;
-        }
-
-        a {
-            color: $default-text-color;
-        }
-
-        h3 {
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-
-        p {
-            margin-bottom: 20px;
-        }
+    h3 {
+      font-size: 36px;
+      margin-bottom: 20px;
     }
 
-    .default-task-block {
-        background: white;
-        padding: 30px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px 0 rgba(0,0,0,.3);
-        margin-bottom: 30px;
+    p {
+      margin-bottom: 20px;
     }
+  }
 
-    .participate-btn {
-        font-size: 24px;
-        color: white;
-        background: #43AA5A;
+  .default-task-block {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3);
+    margin-bottom: 30px;
+  }
 
-        &:hover {
-            color: white;
-            background: darken(#43AA5A, 10%);
-        }
+  .participate-btn {
+    font-size: 24px;
+    color: white;
+    background: #43AA5A;
+
+    &:hover {
+      color: white;
+      background: darken(#43AA5A, 10%);
     }
+  }
 }
