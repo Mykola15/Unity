@@ -9,7 +9,7 @@ function Achievement() {
                 <img src={achievementImage} alt=""/>
             </div>
             <div className="achievement-description">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <p>Lorem ipsum dolor</p>
             </div>
         </div>
     );
