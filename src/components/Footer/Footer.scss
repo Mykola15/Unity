@@ -30,13 +30,16 @@ footer {
         &:hover {
           color: darken($default-text-color, 30%);
         }
+
       }
+
     }
+
   }
 
   p {
     margin: 0;
     color: $default-text-color;
   }
-}
 
+}

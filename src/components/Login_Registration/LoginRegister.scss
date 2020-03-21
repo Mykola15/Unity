@@ -44,6 +44,7 @@ figure {
   &:hover {
     background: darken(#6dabe4, 10%);
   }
+
 }
 
 .image {
@@ -95,6 +96,7 @@ figure {
   &:focus {
     border-bottom: 1px solid #222;
   }
+
 }
 
 .agree-term {
@@ -159,6 +161,7 @@ label {
         transition-property: transform;
         transition-timing-function: ease-out;
       }
+
     }
 
     &:hover {
@@ -166,9 +169,13 @@ label {
         i {
           transform: scale(1.3) translateZ(0);
         }
+
       }
+
     }
+
   }
+
 }
 
 .zmdi-facebook {
