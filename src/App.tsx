@@ -17,7 +17,7 @@ function App() {
         <Route path="/user" exact component={User} />
         <Route path="/login" exact component={Login} />
         <Route path="/registration" exact component={Registration} />    
-	<Route path="/taskPage" exact component={Task} />
+	    <Route path="/task" exact component={Task} />
     </Layout>
 
   );

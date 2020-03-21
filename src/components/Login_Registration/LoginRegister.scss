@@ -63,20 +63,11 @@ figure {
     font-family: Poppins;
 }
 
-.container {
-    justify-content:center;
-    align-items:center;
-    width:80%;
-    background: #fff;
-    margin: 5% auto;
-    box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
-    border-radius:20px;
-}
-
 #signin {
     margin-top: 10px;
     font-size: 18px;
 }
+
 .signin-image-link {
     font-size: 14px;
     color: #222;
@@ -87,17 +78,8 @@ figure {
     text-decoration: underline;
 }
 
-.form-group {
-    position: relative;
-    overflow: hidden;
-    &:last-child {
-        margin-bottom: 0px;
-    }
-}
-
 .remmeber {
     text-align:left;
-    padding-left:left;
 }
 
 .form {

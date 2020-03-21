@@ -1,26 +1,23 @@
-.rightPart {
-    margin-top: auto;
-    margin-bottom: auto;
-    text-align: center;
-}
-
-.avatar {
-    align-self: center;
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-}
-
-.person-name {
-    font-size: 20px;
-}
-
-.person-description {
-    font-size: 17px;
-}
-
-input {
+.user-info-block {
+    background: white;
+    box-shadow: 0 0 10px 0 rgba(0,0,0, 0.3);
+    border-radius: 5px;
+    padding: 30px;
     font-size: 18px;
     text-align: center;
-    border: none;
+
+    .user-info-img {
+        width: 40%;
+        border-radius: 100%;
+    }
+
+    .user-name {
+        margin-top: 30px;
+        font-size: 30px;
+    }
+
+    .user-description {
+        margin-top: 15px;
+    }
+
 }
