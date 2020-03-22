@@ -1,9 +1,8 @@
 import React from 'react';
-import './MainPage.scss';
 import Task from './Task/Task';
 import Navbar from './Navbar/Navbar';
 
-function User() {
+function Start() {
     return (
         <div id="user_page">
             <div className="container-fluid">
@@ -24,4 +23,4 @@ function User() {
     );
 }
 
-export default User;
+export default Start;
